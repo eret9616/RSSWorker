@@ -23,7 +23,7 @@ let deal = async (ctx) => {
 
 	let data = {
 		title: `${globalUsername} 的 bilibili 视频`,
-		link: `https://space.bilibili.com/1150472191/video`,
+		link: `https://space.bilibili.com/${uid}/video`,
 		description: `${globalUsername} 的 bilibili 视频`,
 		language: 'zh-cn',
 		// category: 'bilibili',
